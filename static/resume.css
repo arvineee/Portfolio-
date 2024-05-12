@@ -1,0 +1,100 @@
+body{
+    background-color: darkgrey;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman";
+}
+#personal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#personal img {
+    margin-right: 20px;
+    border-radius: 50%; /* Make the image circular */
+}
+
+#personal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#personal li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#personal li:first-child {
+    font-weight: bold;
+    font-size: 24px;
+}
+#summary{
+    margin: 10px;
+    background-color: darkseagreen;
+}
+#summary h2{
+    text-align: center;
+    font-size: bold;
+    
+}
+#summary p{
+    margin: 20px;
+}
+#college h3{
+    text-align: center;
+    
+}
+#education{
+    background-color: darkseagreen;
+}
+#sec,{
+    margin: 10px;
+}
+#sec, h3{
+    text-align: center;
+}
+#sec, p{
+    margin: 10px;
+}
+#education{
+    padding-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+#skills {
+    margin-top: 40px;
+    padding-left: 25px;
+}
+
+#skills h2 {
+    font-size: 24px;
+    color: #333;
+    text-decoration: underline;
+}
+
+#skills ul {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#skills li:before {
+    content: "\2022"; /* Add bullet point before each list item */
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Adjust to align with text */
+}

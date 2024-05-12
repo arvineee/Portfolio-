@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Kiprono Portfolio</title>
+    <link rel="stylesheet" href="{{url_for('static' ,filename='nav.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Felix kiprono Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="{{url_for('resume')}}">Resume</a></li>
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="banner">
+        <div class="container">
+            <h2>Welcome to my Portfolio</h2>
+            <p>Providing compassionate and evidence-based care to improve patient outcomes.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my clinical officer portfolio!<br> As a dedicated healthcare professional, I am passionate about providing comprehensive and compassionate care to patients. <br>Within this portfolio, you'll find evidence of my clinical expertise, proficiency in diagnosis and treatment, commitment to continuous learning, and dedication to improving patient outcomes.<br> Thank you for taking the time to explore my portfolio, and I look forward to the opportunity to contribute to your healthcare team.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Felix Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

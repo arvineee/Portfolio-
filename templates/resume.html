@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='resume.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='nav.css')}}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Felix kiprono Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{url_for('home')}} ">About</a></li>
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('contact')}}">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="personal">
+        <img src="{{url_for('static',filename='logo.jpg')}}" alt="profile" height="200px" width="150px"> 
+        <ul>
+            <li>Name: FELEX KIPRONOH</li>
+            <li>Age: 24</li>
+            <li>Title: Mr</li>
+            <li>Profession: CLINICAL OFFICER</li>
+        </ul>
+    </div>
+    
+    <div id="summary">
+        <h2>Summary</h2>
+        <p>Dedicated and compassionate clinical officer with 1 years of experience providing high-quality patient care in diverse medical settings. <br>Proficient in conducting thorough assessments, <strong>diagnosing conditions</strong>, and implementing effective treatment plans. Skilled in patient education, team collaboration, and maintaining detailed medical records. Committed to delivering compassionate and <strong>evidence-based care</strong> to improve patient outcomes.</p>
+    </div>
+    <div id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Diagnosis and treatment planning</li>
+        <li>Patient assessment and care</li>
+        <li>Medical record keeping</li>
+        <li>Emergency medical response</li>
+        <li>Team collaboration</li>
+        <li>Patient education</li>
+        <li>Infection control and prevention</li>
+        <li>Effective communication</li>
+        <li>Attention to detail</li>
+        <li>Continuous learning and development</li>
+    </ul>
+</div>
+<div id="work">
+    <h3>Work Experience</h3>
+    <ol>
+        <li><b><u>Kericho County Referral Hospital KCRH</u></b> </li>
+        <p><b>Position: </b>Clinical Officer Intern</p>
+        <p><b>Year: </b>April 2024 - To date</p>
+        <li><b><u>Karurumo Rural Health Center</u></b></li>
+        <p><b>Position: </b>Clinical Attachment</p>
+         <p><b>Year: </b>January 2023 - March 2023</p>
+    </ol>
+</div>
+    <div id="education">
+        <div id="sec">
+            <h3>Tetiary Education</h3>
+            <ol>
+                <li>Kenya medical Training College</li>
+                <p>From: March 2020</p>
+                <p>To: August 2023</p>
+                
+            </ol>
+        </div>
+        <div id="sec">
+            <h3>Secondary Education</h3>
+            <ul>
+                <li>Mulot Boys High School</li>
+                <p>From: <b>January 2015</b></p>
+                <p>To: <b>December 2018</b></p>
+                <p><em>Kenya Certificate Of Secondary Education (KCSE)</em> year 2018</p>
+            </ul>
+        </div>
+        <div id="sec">
+            <h3>Primary Education</h3>
+            <ul>
+                <li>Kapkatungor Primary School</li>
+                <p>From: <b>January 2007</b></p>
+                <p>To: <b>December 2014</b></p>
+                <p><em>Kenya Certificate Of Primary Education (KCPE)</em> year 2014</p>
+            </ul>
+        </div>
+        <div id="sec">
+            <h3>Miscellaneous</h3>
+            
+                <li>14 Computer packages</li>
+                <p><b>Period :</b>3 months</p>
+                <p><b>Year :</b>2019</p>
+                <p><em>Computer packages certificate Awarded </em> year 2014</p>
+            
+            <li>Sabbath Day Adventist Church Certificate </li>
+            <p><em>Year Awarded</em> 2023</p>
+            
+        </div>
+    </div>
+   
+     <footer>
+        <div class="container">
+            <p>&copy; 2024 Felix Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

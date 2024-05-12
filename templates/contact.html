@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='contact.css')}}">
+    <link rel="stylesheet" href="{{url_for('static' ,filename='nav.css')}}">
+    <title>Contact form</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Felix kiprono Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{url_for('home')}}">About</a></li>
+                    <li><a href="{{url_for('resume')}}">Resume</a></li>
+                    <li><a href="{{url_for('home')}}">Dashboard</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="contact">
+        <h3>Contact Form</h3>
+        <form id="form" action="{{url_for('contact')}}" method="post">
+            <label for="fullname">Full Name: </label><br>
+            <input type="text" name="fullname" id="fullname" placeholder="Enter your name"> <!-- Completed placeholder -->
+            <label for="message">Message: </label> <br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea> <!-- Added name attribute -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="others">
+        <h3 style="margin-left: 10px;">More</h3>
+        <ul>
+            <li><b>Email: </b><em>kiruifelix03@gmail.com</em></li>
+            <li><b>Tel No: </b><em>+254700459966/0705421888</em></li>
+
+        </ul>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Felix Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
